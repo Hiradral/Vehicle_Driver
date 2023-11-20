@@ -11,8 +11,8 @@ private:
 
 public:
     // Constructors
-    Car() : Vehicle();
-    Car(string, int, int) : Vehicle();
+    Car();
+    Car(string, int, int);
 
     // Mutators
     void setDoors(int);

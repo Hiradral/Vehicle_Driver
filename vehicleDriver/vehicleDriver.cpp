@@ -16,7 +16,6 @@ int main() {
     // Testing the Vehicle class. Start by getting data from the user.
     cout << "Enter a manufacturer: ";
     getline(cin, usrManufacturer);
-    cin.ignore();
     cout << "Enter a year: ";
     cin >> usrYear;
 
