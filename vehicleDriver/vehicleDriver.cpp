@@ -13,15 +13,49 @@ int main() {
         usrDoors = 0;
     double usrTowingCapacity = 0.0;
 
+    // Program header
+    cout << "Vehicle, Car, and Truck class Driver Program\n\n";
+
     // Testing the Vehicle class. Start by getting data from the user.
     cout << "Enter a manufacturer: ";
     getline(cin, usrManufacturer);
     cout << "Enter a year: ";
     cin >> usrYear;
+    cin.ignore();
+    cout << endl;
 
     // Instantiate Vehicle class and test the displayInfo() member function.
     Vehicle testVehicle(usrManufacturer, usrYear);
     testVehicle.displayInfo();
+    cout << endl;
+
+    // Testing the Car class. Start by getting data from the user.
+    cout << "Enter a manufacturer: ";
+    getline(cin, usrManufacturer);
+    cout << "Enter a year: ";
+    cin >> usrYear;
+    cout << "Enter a number of doors: ";
+    cin >> usrDoors;
+    cin.ignore();
+    cout << endl;
+
+    // Instantiate Car class and test the displayInfo() member function.
+    Car testCar(usrManufacturer, usrYear, usrDoors);
+    testCar.displayInfo();
+    cout << endl;
+
+    // Testing the Truck class. Start by getting data from the user.
+    cout << "Enter a manufacturer: ";
+    getline(cin, usrManufacturer);
+    cout << "Enter a year: ";
+    cin >> usrYear;
+    cout << "Enter a towing capacity: ";
+    cin >> usrTowingCapacity;
+    cout << endl;
+
+    // Instantiate Truck class and test the displayInfo() member function.
+    Truck testTruck(usrManufacturer, usrYear, usrTowingCapacity);
+    testTruck.displayInfo();
 
     return 0;
 }
