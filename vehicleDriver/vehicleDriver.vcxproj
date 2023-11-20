@@ -147,6 +147,7 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="Truck.cpp" />
     <ClCompile Include="Vehicle.cpp" />
+    <ClCompile Include="vehicleDriver.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
