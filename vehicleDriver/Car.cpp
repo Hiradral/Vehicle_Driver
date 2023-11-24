@@ -1,3 +1,6 @@
+// Justin This
+// CIS 1202 501
+// November 24, 2023
 // Car class implementation file.
 #include "Car.h"
 #include <iostream>

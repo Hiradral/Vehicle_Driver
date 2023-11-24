@@ -1,3 +1,6 @@
+// Justin This
+// CIS 1202 501
+// November 24, 2023
 // Vehicle class specification file.
 #ifndef VEHICLE_H
 #define VEHICLE_H

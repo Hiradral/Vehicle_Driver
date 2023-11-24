@@ -1,3 +1,6 @@
+// Justin This
+// CIS 1202 501
+// November 24, 2023
 // Vehicle class implementation file.
 #include "Vehicle.h"
 #include <iostream>

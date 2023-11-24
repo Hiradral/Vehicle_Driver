@@ -1,3 +1,6 @@
+// Justin This
+// CIS 1202 501
+// November 24, 2023
 // Truck class specification file.
 #ifndef TRUCK_H
 #define TRUCK_H

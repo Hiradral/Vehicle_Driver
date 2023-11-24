@@ -1,3 +1,6 @@
+// Justin This
+// CIS 1202 501
+// November 24, 2023
 // Driver program to test the Vehicle, Car, and Truck classes.
 #include <iostream>
 #include <string>
@@ -17,6 +20,7 @@ int main() {
     cout << "Vehicle, Car, and Truck class Driver Program\n\n";
 
     // Testing the Vehicle class. Start by getting data from the user.
+    cout << "Vehicle:\n";
     cout << "Enter a manufacturer: ";
     getline(cin, usrManufacturer);
     cout << "Enter a year: ";
@@ -30,6 +34,7 @@ int main() {
     cout << endl;
 
     // Testing the Car class. Start by getting data from the user.
+    cout << "Car:\n";
     cout << "Enter a manufacturer: ";
     getline(cin, usrManufacturer);
     cout << "Enter a year: ";
@@ -45,6 +50,7 @@ int main() {
     cout << endl;
 
     // Testing the Truck class. Start by getting data from the user.
+    cout << "Truck:\n";
     cout << "Enter a manufacturer: ";
     getline(cin, usrManufacturer);
     cout << "Enter a year: ";
